@@ -178,19 +178,17 @@ a {
   box-shadow: 0 2px 8px rgba(0,0,0,0.2);
 }
 
-/* 📱 Botão Flutuante WhatsApp */
+/* Botão flutuante do WhatsApp */
 .whatsapp-float {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: #25d366;
-  color: white;
-  border-radius: 50%;
-  padding: 15px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
   z-index: 999;
 }
-
+.whatsapp-float img {
+  width: 60px;
+  height: 60px;
+}
 .whatsapp-float img {
   width: 32px;
   height: 32px;
