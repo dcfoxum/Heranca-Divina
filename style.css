@@ -1,9 +1,10 @@
+/* 🌌 Fundo Místico */
 body {
-  background: #0f0c29; /* fallback */
-  background: linear-gradient(to bottom, #24243e, #302b63, #0f0c29);
-  color: #fefefe;
+  margin: 0;
   font-family: 'Georgia', serif;
+  background: linear-gradient(to bottom, #24243e, #302b63, #0f0c29);
   background-attachment: fixed;
+  color: #fff;
   animation: backgroundMove 20s ease infinite;
 }
 
@@ -13,160 +14,12 @@ body {
   100% { background-position: 0% 0%; }
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Raleway', sans-serif;
-  background: #0f0b20;
-  color: #f5f5f5;
-  line-height: 1.6;
-}
-
-h1, h2 {
-  font-family: 'Playfair Display', serif;
-  color: #e2d4aa;
-}
-
-nav {
-  background: transparent;
-  padding: 20px;
-  text-align: right;
-}
-
-nav ul {
-  list-style: none;
-}
-
-nav ul li {
-  display: inline-block;
-  margin-left: 20px;
-}
-
-nav ul li a {
-  color: #e2d4aa;
-  text-decoration: none;
-  font-weight: 600;
-}
-
-.banner {
-  height: 90vh;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.banner h1 {
-  font-size: 48px;
-  margin-bottom: 10px;
-}
-
-.banner p {
-  font-size: 20px;
-  margin-bottom: 30px;
-}
-
-.botoes {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-}
-
-.btn {
-  padding: 12px 24px;
-  border: 2px solid #e2d4aa;
-  color: #e2d4aa;
-  background: transparent;
-  text-decoration: none;
-  font-weight: 600;
-  border-radius: 4px;
-  transition: all 0.3s ease;
-}
-
-.btn:hover {
-  background: #e2d4aa;
-  color: #0f0b20;
-}
-
-.btn.claro {
-  background: #e2d4aa;
-  color: #0f0b20;
-}
-
-.btn.claro:hover {
-  background: transparent;
-  color: #e2d4aa;
-}
-
-.destaques {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 40px;
-  padding: 60px 20px;
-  background: #19152d;
-}
-
-.destaques .item {
-  max-width: 300px;
-  text-align: center;
-}
-
-.destaques .item img {
+/* 🖼️ Banners */
+.banner-principal {
   width: 100%;
-  border-radius: 10px;
-  margin-bottom: 15px;
-  box-shadow: 0 0 15px rgba(226, 212, 170, 0.3);
+  display: block;
 }
 
-footer {
-  text-align: center;
-  padding: 20px;
-  background: #0f0b20;
-  color: #ccc;
-  font-size: 14px;
-}
-
-/* 💫 Estilos Gerais */
-body {
-  font-family: 'Georgia', serif;
-  background-color: #faf7f1;
-  color: #3e3e3e;
-  margin: 0;
-  padding: 0;
-}
-
-h1, h2 {
-  font-family: 'Playfair Display', serif;
-  color: #6e4d8f;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-/* 🌞 Banner Principal */
-.topo {
-  background-image: url('NOME-DA-SUA-IMAGEM-BANNER-PRINCIPAL.jpg');
-  background-size: cover;
-  background-position: center;
-  text-align: center;
-  padding: 100px 20px;
-}
-
-.topo h1 {
-  font-size: 3em;
-  color: #e2d4aa;
-  text-shadow: 2px 2px 4px #00000088;
-}
-
-/* 🌙 Banner Secundário */
 .banner-secundario img {
   width: 100%;
   height: auto;
@@ -176,24 +29,28 @@ a {
   margin-bottom: 30px;
 }
 
-/* 🕯️ Sessão Incensos / Velas / Banhos / Tarô */
+/* ✨ Seções */
 .sessao {
-  padding: 60px 20px;
   text-align: center;
-  background-color: #fff;
-  margin-bottom: 40px;
-  border-radius: 12px;
-  box-shadow: 0 0 12px rgba(0,0,0,0.05);
+  margin: 40px auto;
+  padding: 20px;
+  max-width: 800px;
 }
 
 .sessao img {
-  max-width: 100%;
-  border-radius: 8px;
-  margin-top: 20px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.5);
 }
 
-/* Botão flutuante do WhatsApp */
+h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+  color: #e2d4aa;
+  text-shadow: 1px 1px 4px #000;
+}
+
+/* 💬 Botão WhatsApp */
 .whatsapp-float {
   position: fixed;
   bottom: 20px;
@@ -204,24 +61,12 @@ a {
   width: 60px;
   height: 60px;
 }
-.whatsapp-float img {
-  width: 32px;
-  height: 32px;
-}
 
-/* 👑 Rodapé Místico */
-footer {
-  background-color: #1f1b24;
-  color: #e2d4aa;
+/* 👣 Rodapé */
+.rodape {
   text-align: center;
-  padding: 30px 20px;
-  font-family: 'Georgia', serif;
-  border-top: 2px solid #6e4d8f;
-  margin-top: 60px;
-}
-
-footer p {
-  margin: 0;
+  padding: 20px;
+  background-color: #1e1b3a;
+  color: #e2d4aa;
   font-size: 0.9em;
-  opacity: 0.9;
-  }
+}
