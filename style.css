@@ -38,11 +38,12 @@ nav ul li a {
 }
 
 .banner {
-  text-align: center;
-  padding: 100px 20px;
-  background: url('https://images.unsplash.com/photo-1526403229597-42d1d54cdbd4?blend=0f0b20&sat=-100') no-repeat center;
+  height: 90vh;
   background-size: cover;
-  background-blend-mode: multiply;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .banner h1 {
